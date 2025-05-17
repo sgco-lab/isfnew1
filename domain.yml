@@ -1,0 +1,17 @@
+
+version: "3.1"
+
+intents:
+  - ask_historical_place
+  - ask_restaurant
+  - out_of_scope
+
+responses:
+  utter_historical_place:
+    - text: اصفهان پر از مکان‌های تاریخی زیباست، مثل میدان نقش جهان، مسجد شیخ لطف‌الله، سی‌وسه‌پل و پل خواجو.
+
+  utter_restaurant:
+    - text: پیشنهاد می‌کنم رستوران سنتی خوان‌گستر، بریانی اعظم یا شهرزاد رو امتحان کنی.
+
+  utter_out_of_scope:
+    - text: من فقط در مورد شهر اصفهان و مکان‌های گردشگری اون می‌تونم بهت کمک کنم.

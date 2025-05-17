@@ -1,0 +1,8 @@
+
+version: "3.1"
+
+rules:
+- rule: پاسخ به سوالات نامرتبط
+  steps:
+    - intent: out_of_scope
+    - action: utter_out_of_scope

@@ -1,0 +1,19 @@
+
+version: "3.1"
+
+stories:
+
+- story: معرفی مکان تاریخی
+  steps:
+    - intent: ask_historical_place
+    - action: utter_historical_place
+
+- story: معرفی رستوران
+  steps:
+    - intent: ask_restaurant
+    - action: utter_restaurant
+
+- story: پرسش غیر مرتبط
+  steps:
+    - intent: out_of_scope
+    - action: utter_out_of_scope
